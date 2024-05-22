@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+@media (prefers-color-scheme: light) {
+  nav {
+      color: #213547;
+      background-color: #ffffff;
+  }
+  nav a:hover {
+      color: #747bff;
+  }
+  nav button {
+      background-color: #f9f9f9;
+  }
+}
