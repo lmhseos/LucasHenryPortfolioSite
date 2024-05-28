@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Home from './components/home/home.tsx'
+import Home from './components/home/Home.tsx'
 import './index.css'
 import Resume from './components/resume/resume.tsx'
 import Chatbot from './components/chatbot/chatbot.tsx'

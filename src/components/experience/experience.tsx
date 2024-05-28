@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './experience.css';
 import bradfordWhiteLogo from '../../assets/BWC-Logo.jpg';
 import vervintLogo from '../../assets/OST-Logo.png';

@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './contactForm.css';
 
 const ContactForm = () => {
     const [formStatus, setFormStatus] = useState('');
 
-    const sendEmail = (e) => {
+    const sendEmail = (e : React.FormEvent) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_wqswvbr', 'template_ot5okin', e.target, '7fupPFCmNa5f-tNUl')
+        emailjs.sendForm('service_wqswvbr', 'template_ot5okin', e.target as HTMLFormElement, '7fupPFCmNa5f-tNUl')
             .then((result) => {
                 console.log(result.text);
                 setFormStatus('Message sent successfully!');
@@ -17,7 +17,7 @@ const ContactForm = () => {
                 setFormStatus('Failed to send the message. Please try again.');
             });
 
-        e.target.reset();
+        (e.target as HTMLFormElement).reset();
     };
 
     return (

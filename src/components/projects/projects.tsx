@@ -1,4 +1,3 @@
-import React from 'react';
 import './projects.css';
 import DiscordLogo from '../../assets/Discord-Logo.png';
 import llamaLogo from '../../assets/Llama.jpeg';
