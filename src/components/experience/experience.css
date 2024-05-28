@@ -1,0 +1,103 @@
+.work-experience {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.job {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  max-width: 600px;
+}
+
+.job-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 10px;
+}
+
+.company-logo {
+  width: 250px; 
+  max-height: 125px;
+  border-radius: 0; 
+  margin-right: 10px; 
+}
+
+.company {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.duration {
+  font-size: 1em;
+  color: #999;
+}
+
+.responsibilities {
+  list-style-type: none; 
+  padding: 0;
+  margin: 10px 0 0 0;
+  text-align: left; 
+}
+
+.responsibilities li {
+  position: relative;
+  padding-left: 25px; 
+  margin-bottom: 10px; 
+  display: block; 
+}
+
+.responsibilities li::before {
+  content: '•'; 
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.2em; 
+  color: #666; 
+  line-height: 1.2em; 
+}
+
+@media (prefers-color-scheme: dark) {
+  .work-experience {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+  }
+
+  .job {
+    border: 1px solid #444;
+    background-color: #2e2e2e;
+  }
+
+  .job-title {
+    color: #e1e1e1;
+  }
+
+  .company {
+    color: #a1a1a1;
+  }
+
+  .duration {
+    color: #c1c1c1;
+  }
+
+  .responsibilities li::before {
+    color: #e1e1e1; 
+  }
+
+  .responsibilities li {
+    color: #e1e1e1; 
+  }
+}

@@ -1,7 +1,7 @@
-import './App.css'
-import img1 from './assets/Me.jpg'
+import './home.css'
+import Me from '../../assets/Me.jpg'
 
-function App() {
+function Home() {
 
   return (
   <div className = "container">
@@ -9,15 +9,15 @@ function App() {
     <header className="App-header">
       <h1>Hi I'm Lucas, I am a Software Engineer</h1>
     </header>
-      <p>
+      <p className='paragraph'>
         I have experience in full stack development, as well as a background in computer science. I am always looking for new opportunities to learn and grow. 
       </p>
     </div>
     <div className='App-body'>
-      <img src={img1} />
+      <img src={Me} />
   </div>
   </div>
   )
 }
 
-export default App
+export default Home
