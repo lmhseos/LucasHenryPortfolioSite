@@ -13,7 +13,6 @@ const Resume: React.FC = () => {
 
         link.click();
 
-    
         document.body.removeChild(link);
     };
 

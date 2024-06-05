@@ -3,10 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    background-color: #f5f5f5;
+    height: 10%;
+    background-color: var(--light-bg-color);
     padding: 20px;
-    padding-bottom: 50px;
 }
 
 .chatbot-form {
@@ -59,13 +58,13 @@
 
 @media (prefers-color-scheme: dark) {
     .chatbot-container {
-        background-color: #1e1e1e;
+        background-color: var(--dark-bg-color);
     }
 
     .chatbot-input {
-        border: 1px solid #444;
-        background-color: #2e2e2e;
-        color: #e1e1e1;
+        border: 1px solid var(--gray-border-color);
+        background-color: var(--gray-bg-color);
+        color: var(--white-text-color);
     }
 
     .chatbot-button {
@@ -73,8 +72,8 @@
     }
 
     .chatbot-output {
-        background-color: #2e2e2e;
-        border: 1px solid #444;
-        color: #e1e1e1;
+        background-color: var(--gray-bg-color);
+        border: 1px solid var(--gray-border-color);
+        color: var(--white-text-color);
     }
 }

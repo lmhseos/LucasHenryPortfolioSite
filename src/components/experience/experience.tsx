@@ -3,6 +3,7 @@ import './experience.css';
 import bradfordWhiteLogo from '../../assets/BWC-Logo.jpg';
 import vervintLogo from '../../assets/OST-Logo.png';
 import bizstreamLogo from '../../assets/BizStream-Logo.png';
+import Resume from '../resume/resume';
 
 const experienceData = [
   {
@@ -36,8 +37,7 @@ const experienceData = [
     responsibilities: [
       'Created a fullstack application with C# and React that has LLM RAG capabilities',
       'Created a slack bot with LLM Agent that can execute code, retrieve data and think through problems',
-      'Created Deployment pipelines with AWS and GitHub actions',
-     
+      'Created Deployment pipelines with AWS and GitHub actions', 
     ],
     logo: bizstreamLogo 
   }
@@ -63,7 +63,9 @@ const WorkExperience = () => {
           </div>
         ))}
       </div>
+      <Resume />
     </section>
+  
   );
 };
 

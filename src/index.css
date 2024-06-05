@@ -53,11 +53,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 210px;
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    /* background-color: #ffffff; */  /* Commented out to remove background color */
   }
+  
   a:hover {
     color: #747bff;
   }
