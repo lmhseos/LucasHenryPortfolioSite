@@ -14,7 +14,7 @@ const Chatbot: React.FC = () => {
         e.preventDefault();
         setIsLoading(true);
         try {
-            const response = await fetch('https://localhost:7045/api/rag/ask', {
+            const response = await fetch('https://personalsitebackend.azurewebsites.net/api/rag/ask', {
                 method: 'POST',
                 body: input ,
                 headers: {
