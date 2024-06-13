@@ -29,10 +29,10 @@
 }
 
 .company-logo {
-  width: 100%; /* Changed to 100% to be responsive */
-  max-height: 125px;
+  max-height: 100px;
   border-radius: 0; 
   margin-bottom: 10px; /* Changed margin-right to margin-bottom for better stacking on small screens */
+  object-fit: contain;
 }
 
 .company {

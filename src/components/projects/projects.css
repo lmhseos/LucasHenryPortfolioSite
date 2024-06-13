@@ -21,6 +21,7 @@
     max-height: 125px;
     border-radius: 0; 
     margin-right: 10px; 
+    object-fit: contain;
   }
   
   .project-title {
