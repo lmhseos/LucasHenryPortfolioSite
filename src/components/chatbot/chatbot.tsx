@@ -14,16 +14,16 @@ const Chatbot: React.FC = () => {
         e.preventDefault();
         setIsLoading(true);
         try {
-            const response = await fetch('https://localhost:7045/api/rag/ask', {
+            const response = await fetch('https://personalsitebackend.azurewebsites.net/api/rag/ask', {
                 method: 'POST',
-                body: input ,
+                body: JSON.stringify({ Text : input }),
                 headers: {
                     'Content-Type': 'application/json',
                 },
             });
-
+            console.log(typeof(response.body));
             const data = await response.json();
-            setOutput(data.output || 'No response received.');
+            setOutput(data.answer);
         } catch (error) {
             console.error('Error:', error);
             setOutput('An error occurred while fetching the response.');

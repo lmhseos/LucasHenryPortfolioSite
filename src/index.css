@@ -56,7 +56,7 @@ button:focus-visible {
 .maincontainer {
   display: flex;
   flex-direction: column;
-  gap: 210px;
+  gap: 250px;
 }
 
 

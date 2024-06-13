@@ -37,7 +37,7 @@ const experienceData = [
     responsibilities: [
       'Created a fullstack application with C# and React that has LLM RAG capabilities',
       'Created a slack bot with LLM Agent that can execute code, retrieve data and think through problems',
-      'Created Deployment pipelines with AWS and GitHub actions', 
+      'Created Deployment pipelines with Microsoft Azure and GitHub actions'
     ],
     logo: bizstreamLogo 
   }
