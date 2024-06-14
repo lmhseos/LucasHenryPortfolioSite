@@ -56,7 +56,7 @@ button:focus-visible {
 .maincontainer {
   display: flex;
   flex-direction: column;
-  gap: 28vh;
+  gap: 30vh;
 }
 
 @media (prefers-color-scheme: light) {
