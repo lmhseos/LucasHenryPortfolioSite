@@ -7,7 +7,6 @@ import Navbar from './components/navbar/navbar.tsx'
 import WorkExperience from './components/experience/experience.tsx'
 import Projects from './components/projects/projects.tsx'
 import ContactForm from './components/contact/contactform.tsx'
-import Easteregg from './components/easteregg/easteregg.tsx'
 import './global.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
