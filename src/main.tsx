@@ -18,7 +18,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <WorkExperience />
     <Projects />
     <ContactForm />
-    <Easteregg />
     </div>
   </React.StrictMode>
 )
